@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Sriracha&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Untitled\ design.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    height: 100vh;
+    font-family: "Mulish", sans-serif;
+    color: white;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.contanier{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.left{
+    width: 69%;
+    display: flex;
+    column-gap: 80px;
+    align-items: end;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+.degree{
+    translate: 0 20px;
+}
+#time{
+    font-size: 16px;
+   translate: -60px 10px;
+}
+
+.location{
+    translate: 2px 38px;
+}
+.right{
+    width: 35%;
+    display: flex;
+    flex-direction: column; 
+   
+}
+.search{
+    height: 30%;
+    padding: 20px 40px 40px 40px ;
+}
+#location{
+    padding: 8px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+    background-color: rgba(29, 63, 93, 0);
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 2px solid rgb(66, 126, 180);
+}
+#location:hover{
+    border: 3px solid rgb(124, 241, 241);
+    cursor: pointer;
+    background-color: rgb(66, 126, 180);
+}
+.button{
+    padding: 18px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    background: rgb(255, 162, 0);
+    border: none;
+    color: rgb(11, 11, 48);
+}
+.button:hover{
+    padding: 19px;
+    cursor: pointer;
+}
+#myLocation{
+    translate: 170px 70px;
+    font-size: 50px;
+    border: none;
+    background: rgba(0, 0, 255, 0);
+    cursor: pointer;
+    color:  rgb(1, 10, 73);
+}
+#myLocation:hover{
+    color: rgb(180, 8, 8);
+}
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.search p{
+    font-size: 23px;
+    font-family: "Neucha", cursive;
+    translate: 50px 80px;
+    cursor: pointer;
+}
+
+#line{
+    border-bottom: 3px solid rgb(177, 174, 174);
+    margin: 20px 30px;
+    display: none;
+}
+.weatherDesc{
+    height: 70%;
+    text-transform: capitalize;
+font-size: 20px;
+font-weight: 600;
+}
+#weatherDetails{
+    text-transform: capitalize;
+    margin: 35px 0px 35px 30px;
+    font-size: 27px;
+    display: none;
+}
+#cloud,
+#windy,
+#hum{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    display: none;
+}
+#humidity{
+    margin-left: 300px;
+}
+#cloudy{
+    margin-left:315px ;
+}
+#wind{
+    margin-left: 295px;
+}

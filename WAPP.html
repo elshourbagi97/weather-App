@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether Application</title>
+    <link rel="stylesheet" href="normalize.css ملف/normalize.css">
+    <link rel="stylesheet" href="WAPP.css">
+    <script src="https://kit.fontawesome.com/87548e5234.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contanier">
+        <div class="left">
+            <h2 class="degree">---°c</h2>
+            <div>
+                <p class="location"></p>
+                <p id="time"></p>
+            </div>
+            <p class="desc">---</p>
+        </div>
+        <div class="right">
+            <div class="search">
+        <input type="text" id="location" placeholder="Location">
+        <button class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button id="myLocation"><i class="fa-solid fa-location-dot"></i></button>
+        <p>click here for your location</p>
+            </div>
+        <div class="weatherDesc">
+            <p id="line"></p>
+            <h2 id="weatherDetails">weather details</h2>
+            <p id="cloud">cloudy <span id="cloudy"></span></p>
+            <p id="hum">humidity<span id="humidity"></span></p>
+            <p id="windy">wind<span id="wind"></span></p>
+        </div>
+        </div>
+    </div>
+    <script src="WAPP.js"></script>
+</body>
+</html>
